@@ -1,11 +1,11 @@
-VenturSeed — Frontend Developer Assignment
+## VenturSeed — Frontend Developer Assignment
 
-Live demo: https://venturseed-assesment2.vercel.app/
+## Live demo: https://venturseed-assesment2.vercel.app/
 
 Rebuild of the provided Figma home page using Nuxt 3 + Vue 3 + TailwindCSS, with mobile + desktop layouts and a Pixelay comparison.
 
 
-Tech Stack
+## Tech Stack
 
 Nuxt 3 (Vue 3 + Vite)
 TailwindCSS
@@ -51,7 +51,7 @@ npm run dev       # http://localhost:3000
 npm run build
 npm run preview   # http://localhost:3000
 
-What’s Included
+## What’s Included
 
 Responsive desktop + mobile layouts
 Interactive element: mobile menu toggle (and other small UI interactions)
@@ -60,15 +60,7 @@ Pixelay overlays (desktop + mobile) and notes
 Nuxt Image: automatic lazy-loading, size/format optimization, placeholders
 
 
-Pixelay Evidence
-
-/pixelay
-  ├─ pixelay-desktop.png
-  ├─ pixelay-mobile.png
-  └─ notes.md
-
-
-How I captured them:
+## How I captured them:
 
 Run the site locally (or open the Vercel URL).
 
@@ -83,7 +75,7 @@ Export to /pixelay/pixelay-desktop.png and /pixelay/pixelay-mobile.png.
 Add short diffs to /pixelay/notes.md.
 
 
-Sample notes.md:
+## Sample notes.md:
 
 # Pixelay Notes
 
@@ -98,7 +90,7 @@ Sample notes.md:
 - CTA buttons match Figma dimensions (345×40) within 1px tolerance.
 
 
-Notes, Tradeoffs & Assumptions
+## Notes, Tradeoffs & Assumptions
 
 Figma frame scale: The source frames are larger than typical desktop viewports. I preserved visual proportion without forcing oversized type that would feel off on real devices. Pixelay may highlight tiny (1–3px) spacing/line-height differences caused by font metrics.
 
@@ -118,7 +110,7 @@ Reduced motion respected (prefers-reduced-motion) for any transitions.
 
 
 
-Performance
+## Performance
 
 Static assets served from /public and/or optimized images.
 
@@ -128,7 +120,7 @@ Minimal JS for interactions; Tailwind for styling.
 
 
 
-Project Structure (high-level)
+## Project Structure (high-level)
 /<app-root>
   ├─ app.vue / pages/
   ├─ components/
@@ -145,7 +137,7 @@ Project Structure (high-level)
 
 
 
-What I’d Do With More Time
+## What I’d Do With More Time
 
 Expand test coverage on components with edge cases (long text, missing assets).
 
@@ -156,5 +148,6 @@ Swap heavy PNGs for SVG/Next-gen formats and tune color profiles.
 Add CI to generate/attach Pixelay overlays automatically on PR.
 
 Deliverables Checklist
+
 
 
