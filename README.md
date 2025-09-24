@@ -129,3 +129,27 @@ Add CI to generate/attach Pixelay overlays automatically on PR.
 
 Deliverables Checklist
 
+
+## Pixelay Evidence
+
+<details>
+  <summary><strong>Desktop Overlays</strong></summary>
+
+  <p>
+    <img src="/pixelay_images/desktop/Screenshot%20(1).png" alt="Desktop Overlay 1" width="900"><br/>
+    <img src="/pixelay_images/desktop/Screenshot%20(2).png" alt="Desktop Overlay 2" width="900"><br/>
+    <img src="/pixelay_images/desktop/Screenshot%20(3).png" alt="Desktop Overlay 3" width="900">
+  </p>
+</details>
+
+<details>
+  <summary><strong>Mobile Overlays</strong></summary>
+
+  <p>
+    <img src="/pixelay_images/mobile/Screenshot%20(1).png" alt="Mobile Overlay 1" width="360"><br/>
+    <img src="/pixelay_images/mobile/Screenshot%20(2).png" alt="Mobile Overlay 2" width="360"><br/>
+    <img src="/pixelay_images/mobile/Screenshot%20(3).png" alt="Mobile Overlay 3" width="360">
+  </p>
+</details>
+
+📄 See notes: [pixelay_images/notes.md](./pixelay_images/notes.md)
