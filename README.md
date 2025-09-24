@@ -4,43 +4,38 @@ Live demo: https://venturseed-assesment2.vercel.app/
 
 Rebuild of the provided Figma home page using Nuxt 3 + Vue 3 + TailwindCSS, with mobile + desktop layouts and a Pixelay comparison.
 
+
 Tech Stack
 
 Nuxt 3 (Vue 3 + Vite)
-
 TailwindCSS
-
+Nuxt Image (@nuxt/image) – optimized images (format/size), lazy-loading
 Small scoped CSS where Figma required absolute positioning
 
-Deployed to Vercel
 
-Getting Started
-# 1) install deps
-pnpm i         # or: npm i / yarn
+## Getting Started (Local)
 
-# 2) run dev server
-pnpm dev       # http://localhost:3000
+> The Nuxt app lives in **homedesign/** (that’s where `package.json` is).
 
-# 3) build & preview
-pnpm build
-pnpm preview   # http://localhost:3000
+# bash
+cd homedesign
+npm install
+npm run dev       # http://localhost:3000
 
-
-If your app folder is not the repo root, run these commands from the folder that contains package.json.
+# build & preview
+npm run build
+npm run preview   # http://localhost:3000
 
 What’s Included
 
 Responsive desktop + mobile layouts
-
 Interactive element: mobile menu toggle (and other small UI interactions)
-
 Matching typography/spacing as closely as possible to Figma
-
 Pixelay overlays (desktop + mobile) and notes
+Nuxt Image: automatic lazy-loading, size/format optimization, placeholders
+
 
 Pixelay Evidence
-
-Place your artifacts inside the app root:
 
 /pixelay
   ├─ pixelay-desktop.png
@@ -62,6 +57,7 @@ Export to /pixelay/pixelay-desktop.png and /pixelay/pixelay-mobile.png.
 
 Add short diffs to /pixelay/notes.md.
 
+
 Sample notes.md:
 
 # Pixelay Notes
@@ -75,6 +71,7 @@ Sample notes.md:
 - Hero “Dart-Native” pill positioned per Figma; subcopy line-height adapted to system font rendering.
 - Vector/wave elements adjusted to avoid color bleed on small screens.
 - CTA buttons match Figma dimensions (345×40) within 1px tolerance.
+
 
 Notes, Tradeoffs & Assumptions
 
@@ -94,6 +91,8 @@ Keyboard focus states and logical tab order.
 
 Reduced motion respected (prefers-reduced-motion) for any transitions.
 
+
+
 Performance
 
 Static assets served from /public and/or optimized images.
@@ -101,6 +100,8 @@ Static assets served from /public and/or optimized images.
 Lazy‐loading where appropriate (loading="lazy" or <NuxtImg> when used).
 
 Minimal JS for interactions; Tailwind for styling.
+
+
 
 Project Structure (high-level)
 /<app-root>
@@ -116,6 +117,8 @@ Project Structure (high-level)
   ├─ tailwind.config.cjs
   ├─ package.json
   └─ README.md
+
+
 
 What I’d Do With More Time
 
@@ -153,3 +156,4 @@ Deliverables Checklist
 </details>
 
 📄 See notes: [pixelay_images/notes.md](./pixelay_images/notes.md)
+
