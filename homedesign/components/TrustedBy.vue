@@ -1,5 +1,5 @@
 <template>
-  <section class="relative w-full bg-white overflow-x-hidden">
+  <section class="relative w-full bg-white overflow-x-hidden mt-10">
     <div
       class="mx-auto flex w-full max-w-[1920px] flex-col items-center
              gap-[40px] px-6 xl:px-[120px] h-auto md:h-[369px] mt-6"

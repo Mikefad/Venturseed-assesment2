@@ -1,0 +1,3 @@
+- Figma canvas is wider/taller than common desktops (e.g., sections sized for ~1680–1920px). A 1:1 Pixelay overlay at that size would look oversized on typical 1366–1440px screens.
+- Approach: kept visual ratios but enforced fluid, capped widths (max-w), responsive type/spacing, and mobile-specific layouts. This preserves fidelity while preventing overflow on real devices.
+- Minor variances (±2–4px) from line-height and font fallback. Assets were optimized for web; some gradients/patterns approximated to avoid heavy DOM and improve perf.

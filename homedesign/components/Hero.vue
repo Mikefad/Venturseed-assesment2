@@ -185,7 +185,7 @@ const vectorUrl = '/hero-vector.png'
     <img
       :src="vectorUrl"
       alt=""
-      class="pointer-events-none select-none absolute inset-x-0 -z-0 h-[85vh] md:h-auto"
+      class="pointer-events-none select-none absolute inset-x-0 -z-0 h-[700px] md:h-auto"
       style="top: calc(0vh - 40px); width: 100%; display: block; object-fit: cover;"
     />
 
