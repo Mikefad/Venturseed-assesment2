@@ -4,7 +4,7 @@
     <nav class="nav__inner" aria-label="Primary">
       <!-- Left: Logo -->
       <a href="/" class="nav__brand">
-        <img src="/logo-intellitoggle.png" alt="IntelliToggle" />
+        <NuxtImg src="/logo-intellitoggle.png" alt="IntelliToggle" />
       </a>
 
       <!-- Center: Links -->

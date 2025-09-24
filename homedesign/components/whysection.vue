@@ -27,12 +27,13 @@ const iconMap: Record<string, string> = {
         <div class="w-full flex flex-col lg:flex-row justify-center items-start gap-10 lg:gap-24">
           <div v-for="(f, i) in features" :key="i" class="w-full max-w-[402px] flex flex-col gap-12">
             <div class="w-[129px] h-[118px] rounded-lg border border-[#342d7e] bg-[#EDECF6] flex items-center justify-center text-4xl">
-              <img
+              <NuxtImg
                 v-if="iconMap[f.icon]"
                 :src="iconMap[f.icon]"
                 :alt="f.title"
                 class="h-12 w-12 object-contain"
                 draggable="false"
+                loading="lazy"
               />
               <span v-else aria-hidden="true">{{ f.icon }}</span>
             </div>

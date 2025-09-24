@@ -57,10 +57,11 @@
       >
         <!-- flags (app mockup frame) -->
         <div class="what-it__stage relative mx-auto h-[517.69px] w-[728px] rounded-[4px] bg-[#F8F8F8] overflow-hidden">
-          <img
+          <NuxtImg
             :src="mockup"
             alt="Feature flags dashboard mockup"
             class="what-it__screen absolute inset-0 m-auto max-h-full max-w-full object-contain"
+            loading="lazy"
           />
         </div>
       </div>

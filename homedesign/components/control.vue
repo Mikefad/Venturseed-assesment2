@@ -66,11 +66,12 @@ const items = computed(() => props.items ?? fallback)
               <div class="absolute left-[15.5px] top-[11.71px] right-[15.5px] bottom-[13.5px] rounded bg-[#F8F8F8]"></div>
               <div class="absolute left-0 top-[26.39px] w-[89.72px] h-[calc(100%-26.39px-25px)] bg-white"></div>
 
-              <img
+              <NuxtImg
                 v-if="card.img"
                 :src="card.img"
                 :alt="card.alt || card.title"
                 class="absolute inset-0 h-full w-full object-cover opacity-80"
+                loading="lazy"
               />
             </div>
           </div>

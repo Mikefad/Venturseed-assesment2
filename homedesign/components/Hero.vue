@@ -12,6 +12,8 @@ const vectorUrl = '/hero-vector.png'
 
 <template>
   <section class="relative w-full bg-white overflow-visible">
+    <NuxtImg src="/hero-banner.png" alt="" preload class="hidden" aria-hidden="true" />
+
     <!-- TOP-HALF BANNER IMAGE -->
     <div
       class="absolute inset-x-0 top-0 -z-10 bg-cover bg-center"
@@ -182,11 +184,12 @@ const vectorUrl = '/hero-vector.png'
 
 
     <!-- VECTOR that “cuts” the section -->
-    <img
+    <NuxtImg
       :src="vectorUrl"
       alt=""
       class="pointer-events-none select-none absolute inset-x-0 -z-0 h-[700px] md:h-auto"
       style="top: calc(0vh - 40px); width: 100%; display: block; object-fit: cover;"
+      loading="lazy"
     />
 
     
